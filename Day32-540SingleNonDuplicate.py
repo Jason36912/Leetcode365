@@ -27,7 +27,21 @@ class Solution(object):
                 return nums[mid]
         return nums[lo]
 
+    def singleNonDuplicate2(self,nums:List[int]):
+        lo = 0
+        hi = len(nums) - 1
+        while lo<hi:
+            mid = lo + (hi-lo)//2
+            if mid % 2 == 1:
+                mid -=  1           #mid不是偶数，左移一位
+            if nums[mid] == nums[mid+1]:
+                lo = mid + 2
+            else:
+                hi= mid
+        return nums[lo]
+
 nums = [1,1,4,4,5,5,6,6,8,9,9]
 s = Solution()
 a = s.singleNonDuplicate1(nums)
-print(a)
+b = s.singleNonDuplicate2(nums)
+print(a,b)
