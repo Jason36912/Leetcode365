@@ -13,9 +13,9 @@ class ListNode:
 class Solution:
     def getKthFromEnd(self,head:ListNode,k:int):
         former, latter = head,head
-                                    #考虑特殊情况，head为空指针或者k=0
-                                    # 考虑特殊情况，k大于列表的长度
-        for _ in range(k):
+        if (head == None or k == 0):                 #考虑特殊情况，head为空指针或者k=0
+            return None
+        for _  in range(k):                            # 考虑特殊情况，k大于列表的长度
             former = former.next
         while former:
             former, latter = former.next,latter.next
@@ -30,5 +30,5 @@ node5 = ListNode(4,node4)
 #print(node1,node2.val,node3,node4.next)
 
 s =Solution()
-v  = s.getKthFromEnd(node2,2)
+v  = s.getKthFromEnd(node5,1)
 print(v.val)
