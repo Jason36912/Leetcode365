@@ -40,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day28-617mergeTrees">
+  <component name="RunManager" selected="Python.Day35-15threeSum">
     <configuration name="Day28-617mergeTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,28 +85,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day30-removeElement" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python35\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day30-removeElement.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Day33-22getKthFromEnd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,6 +99,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day33-22getKthFromEnd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Day35-15threeSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python35\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day35-15threeSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day35-15threeSum" />
         <item itemvalue="Python.Day28-617mergeTrees" />
         <item itemvalue="Python.Day29-445addTwoNumbers" />
         <item itemvalue="Python.Day54-18deleteNode" />
         <item itemvalue="Python.Day33-22getKthFromEnd" />
-        <item itemvalue="Python.Day30-removeElement" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +206,8 @@
       <workItem from="1595292220656" duration="2472000" />
       <workItem from="1596157969909" duration="599000" />
       <workItem from="1596412363964" duration="975000" />
+      <workItem from="1596503590449" duration="276000" />
+      <workItem from="1596672470503" duration="1624000" />
     </task>
     <servers />
   </component>
@@ -232,6 +234,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$Day54_18deleteNode.coverage" NAME="Day54-18deleteNode Coverage Results" MODIFIED="1594602929813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Day29_445addTwoNumbers.coverage" NAME="Day29-445addTwoNumbers Coverage Results" MODIFIED="1594948687749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Day28_617mergeTrees.coverage" NAME="Day28-617mergeTrees Coverage Results" MODIFIED="1595294653679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$Day35_15threeSum.coverage" NAME="Day35-15threeSum Coverage Results" MODIFIED="1596675103345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$Day32_540SingleNonDuplicate.coverage" NAME="Day32-540SingleNonDuplicate Coverage Results" MODIFIED="1594083004279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
